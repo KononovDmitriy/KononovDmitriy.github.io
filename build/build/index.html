@@ -79,6 +79,13 @@
               <label for="registerInputConfirmPassword">Повторите пароль</label>
               <input type="password" class="form-control" id="registerInputConfirmPassword" placeholder="Confirm password">
             </div>
+
+            <div id='recaptcha' class="g-recaptcha"
+              data-sitekey="6LcCxT8UAAAAADePAfRygUpreEvUj6J8oMWRE0JW"
+              data-callback="captchaOnLoad"
+              data-size="invisible"></div>
+
+
             <button id='registerButtonSubmit' type="submit" class="btn btn-success g-recaptcha" data-sitekey="6LcCxT8UAAAAADePAfRygUpreEvUj6J8oMWRE0JW" data-callback='onSubmit'>Регистрация</button>
             <button id="registerButtonCancel" type="button" class="btn btn-danger">Отмена</button>
           </form>
@@ -166,7 +173,10 @@
     <script type="text/javascript" src='./settings/settings.js'></script>
     <script type="text/javascript" src='./js/block.js'></script>
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=captchaOnLoad"
+        async defer>
+    </script>
+
 
   </body>
 </html>

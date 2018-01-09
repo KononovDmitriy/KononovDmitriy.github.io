@@ -1,1 +1,0 @@
-"use strict";sessionStorage.getItem("token")||(location="./login.html");

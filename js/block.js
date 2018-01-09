@@ -909,8 +909,9 @@
 	  init: function init() {
 	    window.captchaCallback = function () {
 	      console.log('captcha callback');
-	    }, window.captchaOnLoadCallback = function () {
-	      var loginButtonSubmit = document.querySelector('#loginButtonSubmit');
+	    };
+	
+	    window.captchaOnLoadCallback = function () {
 	
 	      console.log('Капча загружена');
 	      grecaptcha.render('loginButtonSubmit', {

@@ -1,4 +1,4 @@
-rm -r "D:\USERS\kds\Documents\DEV\KononovDmitriy.github.io\*"
+rm -r "D:\USERS\kds\Documents\DEV\KononovDmitriy.github.io\"
  
 git add *
 git commit -m 'captcha'

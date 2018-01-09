@@ -73,10 +73,13 @@
 			}
 		},
 		{
+			"contents": "window.captchaOnLoad = function () {\n  console.log('Капча загружена');\n};\n\n\nexport default {\ninit\n\n  captchaCallback() {\n\n\n  }\n};\n",
 			"file": "src/js/tools/captcha.js",
+			"file_size": 149,
+			"file_write_time": 131599551365536417,
 			"settings":
 			{
-				"buffer_size": 124,
+				"buffer_size": 130,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -149,7 +152,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 428.0
+		"width": 444.0
 	},
 	"console":
 	{
@@ -170,11 +173,11 @@
 	},
 	"expanded_folders":
 	[
-		"/D/USERS/kds/Documents/DEV/LOPOS-ID",
-		"/D/USERS/kds/Documents/DEV/LOPOS-ID/src",
-		"/D/USERS/kds/Documents/DEV/LOPOS-ID/src/js",
-		"/D/USERS/kds/Documents/DEV/LOPOS-ID/src/js/login",
-		"/D/USERS/kds/Documents/DEV/LOPOS-ID/src/js/tools"
+		"/D/USERS/kds/Documents/DEV/KononovDmitriy.github.io",
+		"/D/USERS/kds/Documents/DEV/KononovDmitriy.github.io/src",
+		"/D/USERS/kds/Documents/DEV/KononovDmitriy.github.io/src/js",
+		"/D/USERS/kds/Documents/DEV/KononovDmitriy.github.io/src/js/login",
+		"/D/USERS/kds/Documents/DEV/KononovDmitriy.github.io/src/js/tools"
 	],
 	"file_history":
 	[
@@ -407,23 +410,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 124,
+						"buffer_size": 130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								93,
+								93
 							]
 						],
 						"settings":
 						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -605,7 +605,7 @@
 	  setGlobalAlert('Ошибка связи', 'error');
 	};
 	
-	console.log('v45');
+	console.log('v46');
 	
 	_captcha2.default.init();
 	
@@ -688,7 +688,7 @@
 	
 	  if (_login2.default.validate(userLogin, loginInputPassword.value)) {
 	
-	    if (!window.captchaErr && captchaCount >= 2) {
+	    if (!window.captchaErr && captchaCount >= 3) {
 	      _captcha2.default.captchaExec(captchaId);
 	    } else {
 	      _login2.default.submit(userLogin, loginInputPassword.value);
